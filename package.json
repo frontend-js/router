@@ -1,0 +1,25 @@
+{
+	"name": "@frontend.js/router",
+	"version": "0.0.1",
+	"description": "Framework to allow for simple routing on the web",
+	"main": "dist/router.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack --mode=production",
+		"dev": "webpack --mode=development"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/frontend-js/router.git"
+	},
+	"author": "Luke Mckeen",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/frontend-js/router/issues"
+	},
+	"homepage": "https://github.com/frontend-js/router#readme",
+	"devDependencies": {
+		"webpack": "^4.41.5",
+		"webpack-cli": "^3.3.10"
+	}
+}
